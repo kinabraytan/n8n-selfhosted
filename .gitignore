@@ -3,10 +3,7 @@
 n8n_backup.sql
 
 # Ignore cloudflared credenttials and config files
-cloudflared/cert.pem
-cloudflared/config.yml
-cloudflared/.cloudflared/
-cloudflared/.cloudflared/*
+cloudflared/
 # Ignore archived files
 archived/
 # Ignore n8n cloudflared token
