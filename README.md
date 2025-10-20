@@ -26,7 +26,7 @@
 ---
 
 <p align="center">
-  <img src="https://github.com/kinabraytan/n8ncloud/raw/main/assets/n8ncloud-demo.gif" alt="n8ncloud workflow demo" width="600"/>
+  <img src="https://raw.githubusercontent.com/n8n-io/self-hosted-ai-starter-kit/main/assets/n8n-demo.gif" alt="n8n workflow demo" width="600"/>
 </p>
 
 ---
