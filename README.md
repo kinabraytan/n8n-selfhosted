@@ -17,7 +17,7 @@
 - [n8n on Docker Desktop Stack – Foolproof Guide](#n8n-on-docker-desktop-stack--foolproof-guide)
   - [What is this?](#what-is-this)
   - [Quick Start – Step by Step](#quick-start--step-by-step)
-    - [1. Prerequisites](#1-prerequisites)
+    - [1. Prerequisites 🛠️](#1-prerequisites-️)
     - [2. Clone or Copy This Repository](#2-clone-or-copy-this-repository)
     - [3. Create `.env` File](#3-create-env-file)
     - [4. Install Cloudflared \& Set Up Tunnel](#4-install-cloudflared--set-up-tunnel)
@@ -48,12 +48,12 @@ This project lets you run **[n8n](https://n8n.io/)** (an open-source workflow au
 
 ## Quick Start – Step by Step
 
-### 1. Prerequisites
-- **Docker Desktop** ([Download](https://www.docker.com/products/docker-desktop/))
-- **Docker Compose** (included with Docker Desktop)
-- **Cloudflared** ([Download & Install Guide](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/installation/))
-- **Cloudflare Account** ([Sign Up](https://dash.cloudflare.com/sign-up))
-- **Your own domain** (e.g., `yourdomain.com`) registered with Cloudflare
+### 1. Prerequisites 🛠️
+- 🐳 **Docker Desktop** ([Download](https://www.docker.com/products/docker-desktop/))
+- 🧩 **Docker Compose** (included with Docker Desktop)
+- ☁️ **Cloudflared** ([Download & Install Guide](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/installation/))
+- 🌐 **Cloudflare Account** ([Sign Up](https://dash.cloudflare.com/sign-up))
+- 🏷️ **Your own domain** (e.g., `yourdomain.com`) registered with Cloudflare
 
 ### 2. Clone or Copy This Repository
 ```
