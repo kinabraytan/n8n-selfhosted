@@ -1,52 +1,44 @@
-<p align="center">
-</p>
-
+# Self-hosted n8n on Docker Desktop
 
 <p align="center">
-  <a href="https://www.docker.com/products/docker-desktop/"><img src="https://img.shields.io/badge/Docker-Desktop-blue?logo=docker" alt="Docker Desktop"/></a>
-  <a href="https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/"><img src="https://img.shields.io/badge/Cloudflare-Tunnel-orange?logo=cloudflare" alt="Cloudflare Tunnel"/></a>
-  <a href="https://github.com/kinabraytan/n8n-selfhosted/blob/main/LICENSE"><img src="https://img.shields.io/github/license/kinabraytan/n8n-selfhosted" alt="License"/></a>
-  <a href="https://github.com/kinabraytan/n8n-selfhosted/actions"><img src="https://github.com/kinabraytan/n8n-selfhosted/workflows/CI/badge.svg" alt="GitHub Actions"/></a>
+  <a href="https://github.com/kinabraytan/n8n-selfhosted" title="GitHub Repo">
+    <img src="https://img.shields.io/github/stars/kinabraytan/n8n-selfhosted?style=social" alt="GitHub Stars"/>
+  </a>
+  <a href="https://github.com/kinabraytan/n8n-selfhosted" title="Fork this repo">
+    <img src="https://img.shields.io/github/forks/kinabraytan/n8n-selfhosted?style=social" alt="GitHub Forks"/>
+  </a>
+  <a href="#license" title="License">
+    <img src="https://img.shields.io/github/license/kinabraytan/n8n-selfhosted" alt="License: Apache 2.0"/>
+  </a>
 </p>
 
+---
 
-## 📑 Table of Contents
+<details>
+  <summary><b>📄 License</b></summary>
 
+  <pre>
+  Apache License 2.0
+  See <a href="./LICENSE">LICENSE file</a> for full text.
+  </pre>
+</details>
 
-- [n8n on Docker Desktop Stack – Foolproof Guide](#n8n-on-docker-desktop-stack--foolproof-guide)
-  - [🚀 What is this?](#-what-is-this)
-  - [⚡ Quick Start – Step by Step](#-quick-start--step-by-step)
-    - [1. Prerequisites 🛠️](#1-prerequisites-️)
-    - [2. Clone or Copy This Repository 📦](#2-clone-or-copy-this-repository-)
-    - [3. Create `.env` File 🔑](#3-create-env-file-)
-    - [4. Install Cloudflared \& Set Up Tunnel ☁️🔒](#4-install-cloudflared--set-up-tunnel-️)
-    - [5. Start the Stack ▶️](#5-start-the-stack-️)
-    - [6. Access n8n 🌍](#6-access-n8n-)
-    - [7. Stop the Stack ⏹️](#7-stop-the-stack-️)
-    - [8. Logs \& Troubleshooting 🪛](#8-logs--troubleshooting-)
-  - [🌐 Using Your Own Domain](#-using-your-own-domain)
-  - [🔒 Alternative Exposure Options](#-alternative-exposure-options)
-  - [📁 Key Files](#-key-files)
-  - [📚 Official Documentation](#-official-documentation)
-  - [💡 FAQ \& Tips](#-faq--tips)
-  - [🙌 Credits](#-credits)
-
+---
 
 <p align="center">
-
-  <img src="https://docs.n8n.io/assets/img/workflow-example.png" alt="n8n workflow example" width="600"/>
+  <img src="https://github.com/kinabraytan/n8ncloud/raw/main/assets/n8ncloud-demo.gif" alt="n8ncloud workflow demo" width="600"/>
 </p>
 
-# n8n on Docker Desktop Stack – Foolproof Guide
-
+---
 
 ## 🚀 What is this?
 
-This project lets you run **[n8n](https://n8n.io/)** (an open-source workflow automation tool) locally or remotely, with persistent data and secure access via Cloudflare Tunnel. It uses Docker Compose to orchestrate n8n, PostgreSQL, and Cloudflared. You can expose n8n using your own domain for webhooks and integrations.
+Run **[n8n](https://n8n.io/)** (open-source workflow automation) locally or remotely, with persistent data and secure access via Cloudflare Tunnel. This stack uses Docker Compose to orchestrate n8n, PostgreSQL, and Cloudflared. You can expose n8n using your own domain for webhooks and integrations.
 
+---
 
+## ⚡ Quick Start
 
-## ⚡ Quick Start – Step by Step
 ### 1. Prerequisites 🛠️
 
 Welcome! If you're new to Docker, Cloudflare, or self-hosting, don't worry—this guide will walk you through every step. Here’s what you need before you start:
@@ -172,41 +164,17 @@ docker-compose down
 
 ---
 
-## 📚 Official Documentation
-- [n8n Docker Hosting](https://docs.n8n.io/hosting/docker/)
-- [Cloudflared Tunnels](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/)
-- [Docker Compose](https://docs.docker.com/compose/)
+## 📚 Helpful Links
+- [n8n Docs](https://docs.n8n.io/hosting/docker/)
+- [Cloudflared Docs](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/)
+- [Docker Compose Docs](https://docs.docker.com/compose/)
+- [n8n Community](https://community.n8n.io/)
+- [Cloudflare Community](https://community.cloudflare.com/)
 
 ---
 
----
+## 📄 License
 
-## 💡 FAQ & Tips
-- **Cloudflared won’t connect?** Double-check your token, config, and Cloudflare dashboard.
-- **Webhooks not working?** Make sure your domain is set up and `WEBHOOK_URL` matches your tunnel URL.
-- **Forgot your tunnel token?** Run `cloudflared tunnel token <tunnel-name>` again.
-- **Need to restore data?** Use `n8n_backup.sql` for Postgres dumps.
+This project is licensed under the [Apache License 2.0](https://github.com/n8n-io/n8n/blob/master/packages/n8n/LICENSE.md), the same as the official n8n project. See the LICENSE file for details.
 
 ---
-
----
-
-## 🙌 Credits
-Created for n8n workflow automation with secure, persistent, and remote access using Docker and Cloudflare Tunnel.
-
-<p align="center">
-  <a href="https://github.com/kinabraytan" title="kinabraytan">
-    <img src="https://avatars.githubusercontent.com/u/15175359?v=4" width="60" alt="kinabraytan" style="border-radius:50%;"/>
-  </a>
-</p>
-
-<p align="center">
-  <b>Helpful Links</b><br>
-  <a href="https://docs.n8n.io/hosting/docker/">n8n Docker Docs</a> •
-  <a href="https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/">Cloudflared Docs</a> •
-  <a href="https://docs.docker.com/compose/">Docker Compose Docs</a> •
-  <a href="https://community.n8n.io/">n8n Community</a> •
-  <a href="https://community.cloudflare.com/">Cloudflare Community</a>
-</p>
-
-If you get stuck, check the official docs above or ask for help in the n8n or Cloudflare communities!
