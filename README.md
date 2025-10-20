@@ -1,7 +1,7 @@
 # n8n on Docker Desktop Stack – Foolproof Guide
 
 ## What is this?
-This project lets you run [n8n](https://n8n.io/) (an open-source workflow automation tool) locally or remotely, with persistent data and secure access via Cloudflare Tunnel. It uses Docker Compose to orchestrate n8n, PostgreSQL, and Cloudflared. You can expose n8n using your own domain for webhooks and integrations.
+This project lets you run **[n8n](https://n8n.io/)** (an open-source workflow automation tool) locally or remotely, with persistent data and secure access via Cloudflare Tunnel. It uses Docker Compose to orchestrate n8n, PostgreSQL, and Cloudflared. You can expose n8n using your own domain for webhooks and integrations.
 
 ---
 
