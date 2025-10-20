@@ -1,6 +1,8 @@
 
-<div align="center"
-  <img src="https://n8n.io/guidelines/logo-white.svg" alt="logo" style="max-width: 100%"/>
+<div style="width: 100%; text-align: center;">
+  <div style="display: inline-block; background: #fff; border-radius: 18px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); padding: 18px 32px; margin-bottom: 8px;">
+    <img src="https://n8n.io/guidelines/logo-dark.svg" alt="n8n logo" style="max-width: 100%; width: 180px; display: block;"/>
+  </div>
 </div>
 
 <h1 align="center">Self-hosted n8n on Docker Desktop</h1>
