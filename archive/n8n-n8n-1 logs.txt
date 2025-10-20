@@ -1,0 +1,155 @@
+PS C:\Users\Jnebr> docker logs n8n-n8n-1
+Invalid timestamp value for N8N_RELEASE_DATE: $(date -u +"%Y-%m-%dT%H:%M:%SZ")
+Permissions 0644 for n8n settings file /home/node/.n8n/config are too wide. This is ignored for now, but in the future n8n will attempt to change the permissions automatically. To automatically enforce correct permissions now set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true (recommended), or turn this check off set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=false.
+User settings loaded from: /home/node/.n8n/config
+Initializing n8n process
+There was an error initializing DB
+connect ECONNREFUSED ::1:5432
+Invalid timestamp value for N8N_RELEASE_DATE: $(date -u +"%Y-%m-%dT%H:%M:%SZ")
+Permissions 0644 for n8n settings file /home/node/.n8n/config are too wide. This is ignored for now, but in the future n8n will attempt to change the permissions automatically. To automatically enforce correct permissions now set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true (recommended), or turn this check off set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=false.
+User settings loaded from: /home/node/.n8n/config
+Last session crashed
+Initializing n8n process
+There was an error initializing DB
+connect ECONNREFUSED ::1:5432
+Invalid timestamp value for N8N_RELEASE_DATE: $(date -u +"%Y-%m-%dT%H:%M:%SZ")
+Permissions 0644 for n8n settings file /home/node/.n8n/config are too wide. This is ignored for now, but in the future n8n will attempt to change the permissions automatically. To automatically enforce correct permissions now set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true (recommended), or turn this check off set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=false.
+User settings loaded from: /home/node/.n8n/config
+Last session crashed
+Initializing n8n process
+There was an error initializing DB
+connect ECONNREFUSED ::1:5432
+Invalid timestamp value for N8N_RELEASE_DATE: $(date -u +"%Y-%m-%dT%H:%M:%SZ")
+Permissions 0644 for n8n settings file /home/node/.n8n/config are too wide. This is ignored for now, but in the future n8n will attempt to change the permissions automatically. To automatically enforce correct permissions now set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true (recommended), or turn this check off set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=false.
+User settings loaded from: /home/node/.n8n/config
+Last session crashed
+Initializing n8n process
+There was an error initializing DB
+connect ECONNREFUSED ::1:5432
+Invalid timestamp value for N8N_RELEASE_DATE: $(date -u +"%Y-%m-%dT%H:%M:%SZ")
+Permissions 0644 for n8n settings file /home/node/.n8n/config are too wide. This is ignored for now, but in the future n8n will attempt to change the permissions automatically. To automatically enforce correct permissions now set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true (recommended), or turn this check off set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=false.
+User settings loaded from: /home/node/.n8n/config
+Last session crashed
+Initializing n8n process
+There was an error initializing DB
+connect ECONNREFUSED ::1:5432
+Invalid timestamp value for N8N_RELEASE_DATE: $(date -u +"%Y-%m-%dT%H:%M:%SZ")
+Permissions 0644 for n8n settings file /home/node/.n8n/config are too wide. This is ignored for now, but in the future n8n will attempt to change the permissions automatically. To automatically enforce correct permissions now set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true (recommended), or turn this check off set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=false.
+User settings loaded from: /home/node/.n8n/config
+Last session crashed
+Initializing n8n process
+There was an error initializing DB
+connect ECONNREFUSED ::1:5432
+Invalid timestamp value for N8N_RELEASE_DATE: $(date -u +"%Y-%m-%dT%H:%M:%SZ")
+Permissions 0644 for n8n settings file /home/node/.n8n/config are too wide. This is ignored for now, but in the future n8n will attempt to change the permissions automatically. To automatically enforce correct permissions now set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true (recommended), or turn this check off set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=false.
+User settings loaded from: /home/node/.n8n/config
+Last session crashed
+Initializing n8n process
+There was an error initializing DB
+connect ECONNREFUSED ::1:5432
+Invalid timestamp value for N8N_RELEASE_DATE: $(date -u +"%Y-%m-%dT%H:%M:%SZ")
+Permissions 0644 for n8n settings file /home/node/.n8n/config are too wide. This is ignored for now, but in the future n8n will attempt to change the permissions automatically. To automatically enforce correct permissions now set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true (recommended), or turn this check off set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=false.
+User settings loaded from: /home/node/.n8n/config
+Last session crashed
+Initializing n8n process
+There was an error initializing DB
+connect ECONNREFUSED ::1:5432
+Invalid timestamp value for N8N_RELEASE_DATE: $(date -u +"%Y-%m-%dT%H:%M:%SZ")
+Permissions 0644 for n8n settings file /home/node/.n8n/config are too wide. This is ignored for now, but in the future n8n will attempt to change the permissions automatically. To automatically enforce correct permissions now set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true (recommended), or turn this check off set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=false.
+User settings loaded from: /home/node/.n8n/config
+Last session crashed
+Initializing n8n process
+There was an error initializing DB
+connect ECONNREFUSED ::1:5432
+Invalid timestamp value for N8N_RELEASE_DATE: $(date -u +"%Y-%m-%dT%H:%M:%SZ")
+Permissions 0644 for n8n settings file /home/node/.n8n/config are too wide. This is ignored for now, but in the future n8n will attempt to change the permissions automatically. To automatically enforce correct permissions now set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true (recommended), or turn this check off set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=false.
+User settings loaded from: /home/node/.n8n/config
+Last session crashed
+Initializing n8n process
+There was an error initializing DB
+connect ECONNREFUSED ::1:5432
+Invalid timestamp value for N8N_RELEASE_DATE: $(date -u +"%Y-%m-%dT%H:%M:%SZ")
+Permissions 0644 for n8n settings file /home/node/.n8n/config are too wide. This is ignored for now, but in the future n8n will attempt to change the permissions automatically. To automatically enforce correct permissions now set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true (recommended), or turn this check off set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=false.
+User settings loaded from: /home/node/.n8n/config
+Last session crashed
+Initializing n8n process
+There was an error initializing DB
+connect ECONNREFUSED ::1:5432
+Invalid timestamp value for N8N_RELEASE_DATE: $(date -u +"%Y-%m-%dT%H:%M:%SZ")
+Permissions 0644 for n8n settings file /home/node/.n8n/config are too wide. This is ignored for now, but in the future n8n will attempt to change the permissions automatically. To automatically enforce correct permissions now set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true (recommended), or turn this check off set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=false.
+User settings loaded from: /home/node/.n8n/config
+Last session crashed
+Initializing n8n process
+There was an error initializing DB
+connect ECONNREFUSED ::1:5432
+Invalid timestamp value for N8N_RELEASE_DATE: $(date -u +"%Y-%m-%dT%H:%M:%SZ")
+Permissions 0644 for n8n settings file /home/node/.n8n/config are too wide. This is ignored for now, but in the future n8n will attempt to change the permissions automatically. To automatically enforce correct permissions now set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true (recommended), or turn this check off set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=false.
+User settings loaded from: /home/node/.n8n/config
+Last session crashed
+Initializing n8n process
+There was an error initializing DB
+connect ECONNREFUSED ::1:5432
+Invalid timestamp value for N8N_RELEASE_DATE: $(date -u +"%Y-%m-%dT%H:%M:%SZ")
+Permissions 0644 for n8n settings file /home/node/.n8n/config are too wide. This is ignored for now, but in the future n8n will attempt to change the permissions automatically. To automatically enforce correct permissions now set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true (recommended), or turn this check off set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=false.
+User settings loaded from: /home/node/.n8n/config
+Last session crashed
+Initializing n8n process
+There was an error initializing DB
+connect ECONNREFUSED ::1:5432
+Invalid timestamp value for N8N_RELEASE_DATE: $(date -u +"%Y-%m-%dT%H:%M:%SZ")
+Permissions 0644 for n8n settings file /home/node/.n8n/config are too wide. This is ignored for now, but in the future n8n will attempt to change the permissions automatically. To automatically enforce correct permissions now set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true (recommended), or turn this check off set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=false.
+User settings loaded from: /home/node/.n8n/config
+Last session crashed
+Invalid timestamp value for N8N_RELEASE_DATE: $(date -u +"%Y-%m-%dT%H:%M:%SZ")
+Permissions 0644 for n8n settings file /home/node/.n8n/config are too wide. This is ignored for now, but in the future n8n will attempt to change the permissions automatically. To automatically enforce correct permissions now set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true (recommended), or turn this check off set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=false.
+User settings loaded from: /home/node/.n8n/config
+Last session crashed
+Initializing n8n process
+There was an error initializing DB
+connect ECONNREFUSED ::1:5432
+Invalid timestamp value for N8N_RELEASE_DATE: $(date -u +"%Y-%m-%dT%H:%M:%SZ")
+Permissions 0644 for n8n settings file /home/node/.n8n/config are too wide. This is ignored for now, but in the future n8n will attempt to change the permissions automatically. To automatically enforce correct permissions now set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true (recommended), or turn this check off set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=false.
+User settings loaded from: /home/node/.n8n/config
+Last session crashed
+Initializing n8n process
+There was an error initializing DB
+connect ECONNREFUSED ::1:5432
+Invalid timestamp value for N8N_RELEASE_DATE: $(date -u +"%Y-%m-%dT%H:%M:%SZ")
+Permissions 0644 for n8n settings file /home/node/.n8n/config are too wide. This is ignored for now, but in the future n8n will attempt to change the permissions automatically. To automatically enforce correct permissions now set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true (recommended), or turn this check off set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=false.
+User settings loaded from: /home/node/.n8n/config
+Last session crashed
+Initializing n8n process
+There was an error initializing DB
+connect ECONNREFUSED ::1:5432
+Invalid timestamp value for N8N_RELEASE_DATE: $(date -u +"%Y-%m-%dT%H:%M:%SZ")
+Permissions 0644 for n8n settings file /home/node/.n8n/config are too wide. This is ignored for now, but in the future n8n will attempt to change the permissions automatically. To automatically enforce correct permissions now set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true (recommended), or turn this check off set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=false.
+User settings loaded from: /home/node/.n8n/config
+Last session crashed
+Initializing n8n process
+There was an error initializing DB
+connect ECONNREFUSED ::1:5432
+Invalid timestamp value for N8N_RELEASE_DATE: $(date -u +"%Y-%m-%dT%H:%M:%SZ")
+Permissions 0644 for n8n settings file /home/node/.n8n/config are too wide. This is ignored for now, but in the future n8n will attempt to change the permissions automatically. To automatically enforce correct permissions now set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true (recommended), or turn this check off set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=false.
+User settings loaded from: /home/node/.n8n/config
+Last session crashed
+Initializing n8n process
+There was an error initializing DB
+connect ECONNREFUSED ::1:5432
+Invalid timestamp value for N8N_RELEASE_DATE: $(date -u +"%Y-%m-%dT%H:%M:%SZ")
+Permissions 0644 for n8n settings file /home/node/.n8n/config are too wide. This is ignored for now, but in the future n8n will attempt to change the permissions automatically. To automatically enforce correct permissions now set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true (recommended), or turn this check off set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=false.
+User settings loaded from: /home/node/.n8n/config
+Last session crashed
+Initializing n8n process
+There was an error initializing DB
+connect ECONNREFUSED ::1:5432
+Invalid timestamp value for N8N_RELEASE_DATE: $(date -u +"%Y-%m-%dT%H:%M:%SZ")
+Permissions 0644 for n8n settings file /home/node/.n8n/config are too wide. This is ignored for now, but in the future n8n will attempt to change the permissions automatically. To automatically enforce correct permissions now set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true (recommended), or turn this check off set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=false.
+User settings loaded from: /home/node/.n8n/config
+Last session crashed
+Initializing n8n process
+There was an error initializing DB
+connect ECONNREFUSED ::1:5432
+Invalid timestamp value for N8N_RELEASE_DATE: $(date -u +"%Y-%m-%dT%H:%M:%SZ")
+Permissions 0644 for n8n settings file /home/node/.n8n/config are too wide. This is ignored for now, but in the future n8n will attempt to change the permissions automatically. To automatically enforce correct permissions now set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true (recommended), or turn this check off set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=false.
+User settings loaded from: /home/node/.n8n/config
+Last session crashed

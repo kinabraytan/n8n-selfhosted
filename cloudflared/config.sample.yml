@@ -1,0 +1,17 @@
+# Example Cloudflared config for n8n tunnel
+# Replace tunnel ID and hostname with your own
+
+tunnel: <your-tunnel-id>
+no-autoupdate: true
+protocol: auto
+loglevel: info
+metrics: 0.0.0.0:2000
+
+ingress:
+  - hostname: yourdomain.com
+    service: http://n8n:5678
+    originRequest:
+      connectTimeout: 60s
+      httpHostHeader: yourdomain.com
+      noTLSVerify: true
+  - service: http_status:404

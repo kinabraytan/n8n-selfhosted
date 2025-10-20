@@ -1,0 +1,27 @@
+# Ignore sensitive and unnecessary files
+.env
+credentials.json
+n8n_backup.sql
+cloudflared/cert.pem
+# Ignore local data volumes
+C:/Users/Jnebr/n8n_data/
+C:/Users/Jnebr/n8n_postgres/
+# Ignore editor/OS files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+# Ignore VS Code settings
+.vscode/
+# Ignore node_modules if present
+node_modules/
+# Ignore Docker Compose override files
+*override.yml
+# Ignore backup and temp files
+*.bak
+*.swp
+
+n8n.cloudflared.token.txt
+n8n_backup.sql
+client_secret_34131072450-jfii0tb7nb21nb6ssjhdo6b9gqkmlht4.apps.googleusercontent.com.json
+cloudflared\.cloudflared\cert.pem

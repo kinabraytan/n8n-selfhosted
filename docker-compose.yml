@@ -1,0 +1,95 @@
+networks:
+    n8n-network:
+        name: n8n-network
+        driver: bridge
+        driver_opts:
+            com.docker.network.driver.mtu: 1500 # Increased to standard MTU
+
+services:
+    postgres:
+        image: pgvector/pgvector:pg14
+        restart: unless-stopped
+        env_file: .env
+        environment:
+            POSTGRES_USER: ${POSTGRES_USER}
+            POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+            POSTGRES_DB: ${POSTGRES_DB}
+        volumes: [C:/Users/Jnebr/n8n_postgres:/var/lib/postgresql/data]
+        networks:
+            - n8n-network
+        healthcheck: # Add health check
+            test: [CMD-SHELL, pg_isready -U n8n -d n8n]
+            interval: 5s
+            timeout: 5s
+            retries: 5
+
+        # Keep this section as is
+
+    n8n:
+        image: n8nio/n8n:latest
+        restart: unless-stopped
+        ports: [5678:5678]
+        env_file: .env
+        environment:
+            # Keep existing environment variables
+            - DB_TYPE=${DB_TYPE}
+            - DB_POSTGRESDB_HOST=${DB_POSTGRESDB_HOST}
+            - DB_POSTGRESDB_PORT=${DB_POSTGRESDB_PORT}
+            - DB_POSTGRESDB_DATABASE=${DB_POSTGRESDB_DATABASE}
+            - DB_POSTGRESDB_USER=${DB_POSTGRESDB_USER}
+            - DB_POSTGRESDB_PASSWORD=${DB_POSTGRESDB_PASSWORD}
+            - N8N_RUNNERS_ENABLED=true
+            - N8N_PROXY=${N8N_PROXY}
+            - N8N_TRUST_PROXY=${N8N_TRUST_PROXY}
+            - N8N_BASIC_AUTH_ACTIVE=${N8N_BASIC_AUTH_ACTIVE}
+            - N8N_BASIC_AUTH_USER=${N8N_BASIC_AUTH_USER}
+            - N8N_BASIC_AUTH_PASSWORD=${N8N_BASIC_AUTH_PASSWORD}
+            - N8N_ENCRYPTION_KEY=${N8N_ENCRYPTION_KEY}
+            - WEBHOOK_URL=${WEBHOOK_URL}
+            - N8N_RELEASE_DATE=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+            - N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=${N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS}
+            - N8N_CORS_ALLOWED_ORIGINS=*
+            - N8N_DIAGNOSTICS_ENABLED=true
+            # Add these new environment variables
+            - N8N_HOST=${N8N_HOST}
+            - N8N_PROTOCOL=${N8N_PROTOCOL}
+            - N8N_EDITOR_BASE_URL=${N8N_EDITOR_BASE_URL}
+            - N8N_PAYLOAD_SIZE_MAX=16
+            - N8N_WEBSOCKET_TIMEOUT=60000
+            - N8N_WEBSOCKET_KEEPALIVE=30000
+            - TRUST_PROXY=${TRUST_PROXY}
+            - N8N_COMMUNITY_PACKAGES_ALLOW_TOOL_USAGE=true
+            - NODE_FUNCTION_ALLOW_EXTERNAL=pg
+
+        volumes:
+            - C:/Users/Jnebr/n8n_data:/home/node/.n8n
+            - C:/Users/Jnebr/n8n_data/robots.txt:/home/node/.n8n/robots.txt
+        depends_on:
+            postgres:
+                condition: service_healthy # Wait for PostgreSQL to be ready
+        networks:
+            - n8n-network
+        healthcheck:
+            test:
+                [
+                    "CMD",
+                    "sh",
+                    "-c",
+                    "wget -q -O- http://127.0.0.1:5678/healthz || exit 1",
+                ]
+            start_period: 30s
+            interval: 30s
+            timeout: 10s
+            retries: 3
+
+    cloudflared:
+        restart: unless-stopped
+        image: cloudflare/cloudflared:latest
+        command: tunnel --no-autoupdate run --token ${CLOUDFLARE_TUNNEL_TOKEN}
+        environment:
+            - TUNNEL_TOKEN=${CLOUDFLARE_TUNNEL_TOKEN}
+        networks:
+            - n8n-network
+        depends_on:
+            n8n:
+                condition: service_healthy
