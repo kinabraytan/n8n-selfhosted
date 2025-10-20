@@ -1,3 +1,15 @@
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-logo.png" alt="n8n logo" width="250"/>
+</p>
+
+<p align="center">
+  <a href="https://www.docker.com/products/docker-desktop/"><img src="https://img.shields.io/badge/Docker-Desktop-blue?logo=docker" alt="Docker Desktop"/></a>
+  <a href="https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/"><img src="https://img.shields.io/badge/Cloudflare-Tunnel-orange?logo=cloudflare" alt="Cloudflare Tunnel"/></a>
+  <a href="https://github.com/kinabraytan/n8n-selfhosted/blob/main/LICENSE"><img src="https://img.shields.io/github/license/kinabraytan/n8n-selfhosted" alt="License"/></a>
+  <a href="https://github.com/kinabraytan/n8n-selfhosted/actions"><img src="https://github.com/kinabraytan/n8n-selfhosted/workflows/CI/badge.svg" alt="GitHub Actions"/></a>
+</p>
+
 # n8n on Docker Desktop Stack – Foolproof Guide
 
 ## What is this?
