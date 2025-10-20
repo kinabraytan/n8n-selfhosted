@@ -1,14 +1,27 @@
-# Self-hosted n8n on Docker Desktop
+
+<div align="center"
+  <img src="https://n8n.io/guidelines/logo-white.svg" alt="logo" style="max-width: 100%"/>
+</div>
+
+<h1 align="center">Self-hosted n8n on Docker Desktop</h1>
+<p align="center"><i>Open-source workflow automation, made easy</i></p>
+
 
 <p align="center">
-  <a href="https://github.com/kinabraytan/n8n-selfhosted" title="GitHub Repo">
-    <img src="https://img.shields.io/github/stars/kinabraytan/n8n-selfhosted?style=social" alt="GitHub Stars"/>
-  </a>
-  <a href="https://github.com/kinabraytan/n8n-selfhosted" title="Fork this repo">
-    <img src="https://img.shields.io/github/forks/kinabraytan/n8n-selfhosted?style=social" alt="GitHub Forks"/>
+  <a href="https://github.com/kinabraytan/n8n-selfhosted/stargazers" title="GitHub Stars">
+    <img src="https://img.shields.io/github/stars/kinabraytan/n8n-selfhosted?style=flat-square&label=stars&color=brightgreen" alt="GitHub Stars"/>
   </a>
   <a href="#license" title="License">
-    <img src="https://img.shields.io/github/license/kinabraytan/n8n-selfhosted" alt="License: Apache 2.0"/>
+    <img src="https://img.shields.io/badge/apache%202.0-blue.svg?style=flat-square&label=license" alt="License: Apache 2.0"/>
+  </a>
+  <a href="https://discord.com/users/768782185221586964" title="kinabraytan discord">
+    <img src="https://img.shields.io/badge/%20discord-5865F2?logo=discord&logoColor=white&style=flat-square&label=my" alt="kinabraytan discord"/>
+  </a>
+  <a href="https://discord.com/invite/n8n" title="n8n discord">
+    <img src="https://img.shields.io/badge/%20discord-5865F2?logo=discord&logoColor=white&labelcolor=white&style=flat-square&label=n8n" alt="n8n"/>
+  </a>
+  <a href="https://n8n.io/" title="n8n Website">
+    <img src="https://img.shields.io/badge/n8n.io-gray?style=flat-square&label=&logo=n8n&logoColor=Pink&labelColor=white&color=EA4B71&message=n8n" alt="n8n Website"/>
   </a>
 </p>
 
