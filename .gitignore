@@ -1,15 +1,20 @@
 # Ignore sensitive and unnecessary files
 .env
+credentials.json
 n8n_backup.sql
+*.json
+!*sample*.json
+!package*.json
 
-# Ignore cloudflared credenttials and config files
+# Ignore cloudflared credentials and config files
 cloudflared/
+
 # Ignore archived files
 archived/
-# Ignore n8n cloudflared token
+
+# Ignore specific sensitive files
 n8n.cloudflared.token.txt
-client_secret_34131072450-jfii0tb7nb21nb6ssjhdo6b9gqkmlht4.apps.googleusercontent.com.json
-cloudflared/config.yml
+client_secret_*.json
 # Ignore GitHub workflow files and copilot instructions
 .github/
 #ignore user files
