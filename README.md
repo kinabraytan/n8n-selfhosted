@@ -48,6 +48,12 @@ This project lets you run **[n8n](https://n8n.io/)** (an open-source workflow au
 
 ## ⚡ Quick Start – Step by Step
 ### 1. Prerequisites 🛠️
+Before you begin, make sure you have:
+- 🐳 **Docker Desktop** installed ([Download](https://www.docker.com/products/docker-desktop/))
+- 🧩 **Docker Compose** (included with Docker Desktop)
+- ☁️ **Cloudflare account** ([Sign up](https://dash.cloudflare.com/sign-up))
+- 💻 **Git** (optional, for cloning the repo) ([Download](https://git-scm.com/downloads))
+
 ### 2. Clone or Copy This Repository 📦
 Clone this repository and enter the project folder:
 ```bash
