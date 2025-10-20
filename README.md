@@ -16,7 +16,7 @@ This project lets you run **[n8n](https://n8n.io/)** (an open-source workflow au
 
 ### 2. Clone or Copy This Repository
 ```
-git clone <your-repo-url>
+git clone https://github.com/kinabraytan/n8n-selfhosted.git
 cd <project-folder>
 ```
 
