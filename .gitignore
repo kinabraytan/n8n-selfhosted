@@ -3,9 +3,25 @@
 credentials.json
 n8n_backup.sql
 cloudflared/cert.pem
+cloudflared/.cloudflared/
+
+# Ignore archived files
+archived/
+
+
+n8n.cloudflared.token.txt
+client_secret_34131072450-jfii0tb7nb21nb6ssjhdo6b9gqkmlht4.apps.googleusercontent.com.json
+cloudflared/config.yml
+
+# Ignore GitHub workflow files and copilot instructions
+.github/
+
+#ignore user files
+userbackups/
+
 # Ignore local data volumes
-C:/Users/Jnebr/n8n_data/
-C:/Users/Jnebr/n8n_postgres/
+n8n_data/
+n8n_postgres/
 # Ignore editor/OS files
 *.log
 *.tmp
@@ -20,8 +36,3 @@ node_modules/
 # Ignore backup and temp files
 *.bak
 *.swp
-
-n8n.cloudflared.token.txt
-n8n_backup.sql
-client_secret_34131072450-jfii0tb7nb21nb6ssjhdo6b9gqkmlht4.apps.googleusercontent.com.json
-cloudflared\.cloudflared\cert.pem
