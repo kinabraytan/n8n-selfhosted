@@ -48,11 +48,34 @@ This project lets you run **[n8n](https://n8n.io/)** (an open-source workflow au
 
 ## ⚡ Quick Start – Step by Step
 ### 1. Prerequisites 🛠️
-Before you begin, make sure you have:
-- 🐳 **Docker Desktop** installed ([Download](https://www.docker.com/products/docker-desktop/))
-- 🧩 **Docker Compose** (included with Docker Desktop)
-- ☁️ **Cloudflare account** ([Sign up](https://dash.cloudflare.com/sign-up))
-- 💻 **Git** (optional, for cloning the repo) ([Download](https://git-scm.com/downloads))
+
+Welcome! If you're new to Docker, Cloudflare, or self-hosting, don't worry—this guide will walk you through every step. Here’s what you need before you start:
+
+- 🐳 **Docker Desktop**
+  - What: Lets you run containers (mini virtual computers) on your machine.
+  - Why: n8n, Postgres, and Cloudflared all run in containers.
+  - How to check: Open a terminal and run `docker --version`. If you see a version number, you’re good!
+  - Install: [Download Docker Desktop](https://www.docker.com/products/docker-desktop/) (Windows/macOS). For Linux, see [Docker Engine install](https://docs.docker.com/engine/install/).
+
+- 🧩 **Docker Compose**
+  - What: A tool to run multi-container apps with a single command.
+  - Why: This project uses `docker-compose.yml` to start everything at once.
+  - How to check: Run `docker compose version` (note the space). If you see a version, you’re set! (Included with Docker Desktop.)
+
+- ☁️ **Cloudflare Account**
+  - What: Free account for secure tunneling and remote access.
+  - Why: Cloudflare Tunnel exposes n8n securely to the internet (for webhooks, integrations, etc).
+  - How to check: Try logging in at [Cloudflare Dashboard](https://dash.cloudflare.com/). If you don’t have an account, sign up for free.
+
+- 💻 **Git** (optional, but recommended)
+  - What: Version control tool to download (clone) this project.
+  - Why: Makes setup and updates easier.
+  - How to check: Run `git --version`. If you see a version, you’re set!
+  - Install: [Download Git](https://git-scm.com/downloads)
+  - If you don’t want to use Git, you can also click “Download ZIP” on the GitHub repo page and extract it.
+
+> **Tip for Windows users:**
+> Use the built-in terminal in VS Code, or [Git Bash](https://gitforwindows.org/) for a smoother command-line experience.
 
 ### 2. Clone or Copy This Repository 📦
 Clone this repository and enter the project folder:
