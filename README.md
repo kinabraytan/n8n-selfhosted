@@ -49,8 +49,8 @@ This project lets you run **[n8n](https://n8n.io/)** (an open-source workflow au
 ## ⚡ Quick Start – Step by Step
 ### 1. Prerequisites 🛠️
 ### 2. Clone or Copy This Repository 📦
+Clone this repository and enter the project folder:
 ```bash
-
 git clone https://github.com/kinabraytan/n8n-selfhosted.git
 cd <project-folder>
 ```
@@ -97,11 +97,16 @@ docker-compose up -d
 ```
 
 ### 6. Access n8n 🌍
+Open your browser and go to your Cloudflare Tunnel URL or `localhost:5678` (if local-only).
+
+---
 
 ### 7. Stop the Stack ⏹️
 ```bash
 docker-compose down
 ```
+
+---
 
 ### 8. Logs & Troubleshooting 🪛
 - 📜 View logs: `docker-compose logs -f n8n` (or `postgres`, `cloudflared`)
@@ -160,13 +165,11 @@ docker-compose down
 ## 🙌 Credits
 Created for n8n workflow automation with secure, persistent, and remote access using Docker and Cloudflare Tunnel.
 
-
 <p align="center">
   <a href="https://github.com/kinabraytan" title="kinabraytan">
     <img src="https://avatars.githubusercontent.com/u/15175359?v=4" width="60" alt="kinabraytan" style="border-radius:50%;"/>
   </a>
 </p>
-
 
 <p align="center">
   <b>Helpful Links</b><br>
