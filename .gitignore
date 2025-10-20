@@ -1,6 +1,5 @@
 # Ignore sensitive and unnecessary files
 .env
-credentials.json
 n8n_backup.sql
 cloudflared/cert.pem
 cloudflared/.cloudflared/
