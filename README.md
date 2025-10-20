@@ -10,6 +10,35 @@
   <a href="https://github.com/kinabraytan/n8n-selfhosted/actions"><img src="https://github.com/kinabraytan/n8n-selfhosted/workflows/CI/badge.svg" alt="GitHub Actions"/></a>
 </p>
 
+---
+
+## 📑 Table of Contents
+
+- [n8n on Docker Desktop Stack – Foolproof Guide](#n8n-on-docker-desktop-stack--foolproof-guide)
+  - [What is this?](#what-is-this)
+  - [Quick Start – Step by Step](#quick-start--step-by-step)
+    - [1. Prerequisites](#1-prerequisites)
+    - [2. Clone or Copy This Repository](#2-clone-or-copy-this-repository)
+    - [3. Create `.env` File](#3-create-env-file)
+    - [4. Install Cloudflared \& Set Up Tunnel](#4-install-cloudflared--set-up-tunnel)
+    - [5. Start the Stack](#5-start-the-stack)
+    - [6. Access n8n](#6-access-n8n)
+    - [7. Stop the Stack](#7-stop-the-stack)
+    - [8. Logs \& Troubleshooting](#8-logs--troubleshooting)
+  - [Using Your Own Domain](#using-your-own-domain)
+  - [Alternative Exposure Options](#alternative-exposure-options)
+  - [Key Files](#key-files)
+  - [Official Documentation](#official-documentation)
+  - [FAQ \& Tips](#faq--tips)
+  - [Credits](#credits)
+
+
+---
+
+<p align="center">
+  <img src="https://docs.n8n.io/assets/img/workflow-example.png" alt="n8n workflow example" width="600"/>
+</p>
+
 # n8n on Docker Desktop Stack – Foolproof Guide
 
 ## What is this?
