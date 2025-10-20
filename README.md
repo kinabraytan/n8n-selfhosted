@@ -1,7 +1,6 @@
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-logo.png" alt="n8n logo" width="250"/>
 </p>
+
 
 <p align="center">
   <a href="https://www.docker.com/products/docker-desktop/"><img src="https://img.shields.io/badge/Docker-Desktop-blue?logo=docker" alt="Docker Desktop"/></a>
@@ -10,16 +9,20 @@
   <a href="https://github.com/kinabraytan/n8n-selfhosted/actions"><img src="https://github.com/kinabraytan/n8n-selfhosted/workflows/CI/badge.svg" alt="GitHub Actions"/></a>
 </p>
 
----
 
 ## 📑 Table of Contents
+
 
 - [n8n on Docker Desktop Stack – Foolproof Guide](#n8n-on-docker-desktop-stack--foolproof-guide)
   - [🚀 What is this?](#-what-is-this)
   - [⚡ Quick Start – Step by Step](#-quick-start--step-by-step)
     - [1. Prerequisites 🛠️](#1-prerequisites-️)
+    - [2. Clone or Copy This Repository 📦](#2-clone-or-copy-this-repository-)
+    - [3. Create `.env` File 🔑](#3-create-env-file-)
     - [4. Install Cloudflared \& Set Up Tunnel ☁️🔒](#4-install-cloudflared--set-up-tunnel-️)
+    - [5. Start the Stack ▶️](#5-start-the-stack-️)
     - [6. Access n8n 🌍](#6-access-n8n-)
+    - [7. Stop the Stack ⏹️](#7-stop-the-stack-️)
     - [8. Logs \& Troubleshooting 🪛](#8-logs--troubleshooting-)
   - [🌐 Using Your Own Domain](#-using-your-own-domain)
   - [🔒 Alternative Exposure Options](#-alternative-exposure-options)
@@ -29,56 +32,27 @@
   - [🙌 Credits](#-credits)
 
 
----
-
 <p align="center">
+
   <img src="https://docs.n8n.io/assets/img/workflow-example.png" alt="n8n workflow example" width="600"/>
 </p>
 
 # n8n on Docker Desktop Stack – Foolproof Guide
 
----
 
 ## 🚀 What is this?
+
 This project lets you run **[n8n](https://n8n.io/)** (an open-source workflow automation tool) locally or remotely, with persistent data and secure access via Cloudflare Tunnel. It uses Docker Compose to orchestrate n8n, PostgreSQL, and Cloudflared. You can expose n8n using your own domain for webhooks and integrations.
 
----
 
----
 
 ## ⚡ Quick Start – Step by Step
-
 ### 1. Prerequisites 🛠️
-- 🐳 **Docker Desktop** ([Download](https://www.docker.com/products/docker-desktop/))
-- 🧩 **Docker Compose** (included with Docker Desktop)
-- ☁️ **Cloudflared** ([Download & Install Guide](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/installation/))
-- 🌐 **Cloudflare Account** ([Sign Up](https://dash.cloudflare.com/sign-up))
-- 🏷️ **Your own domain** (e.g., `yourdomain.com`) registered with Cloudflare
-
-git clone https://github.com/kinabraytan/n8n-selfhosted.git
-cd <project-folder>
-```
 ### 2. Clone or Copy This Repository 📦
 ```bash
+
 git clone https://github.com/kinabraytan/n8n-selfhosted.git
 cd <project-folder>
-```
-
-POSTGRES_USER=your_db_user
-POSTGRES_PASSWORD=your_db_password
-POSTGRES_DB=your_db_name
-DB_TYPE=postgresdb
-DB_POSTGRESDB_HOST=postgres
-DB_POSTGRESDB_PORT=5432
-DB_POSTGRESDB_DATABASE=your_db_name
-DB_POSTGRESDB_USER=your_db_user
-DB_POSTGRESDB_PASSWORD=your_db_password
-N8N_BASIC_AUTH_ACTIVE=true
-N8N_BASIC_AUTH_USER=your_n8n_user
-N8N_BASIC_AUTH_PASSWORD=your_n8n_password
-N8N_ENCRYPTION_KEY=your_encryption_key
-WEBHOOK_URL=https://yourdomain.com/webhook/
-CLOUDFLARE_TUNNEL_TOKEN=your_cloudflare_tunnel_token
 ```
 ### 3. Create `.env` File 🔑
 Create a file named `.env` in the project root. Example:
@@ -116,22 +90,14 @@ CLOUDFLARE_TUNNEL_TOKEN=your_cloudflare_tunnel_token
 - 📂 Place `config.yml` and `cert.pem` in the `cloudflared/` folder
 
 **Official Cloudflared Setup Docs:**
-- [Cloudflared Tunnel Setup](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/create-tunnel/)
-- [Expose Local Service](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/routing-to-tunnel/)
 
-docker-compose up -d
-```
 ### 5. Start the Stack ▶️
 ```bash
 docker-compose up -d
 ```
 
 ### 6. Access n8n 🌍
-- 🖥️ Locally: [http://localhost:5678](http://localhost:5678)
-- 🌐 Remotely: `https://yourdomain.com` (via Cloudflare Tunnel)
 
-docker-compose down
-```
 ### 7. Stop the Stack ⏹️
 ```bash
 docker-compose down
@@ -194,7 +160,6 @@ docker-compose down
 ## 🙌 Credits
 Created for n8n workflow automation with secure, persistent, and remote access using Docker and Cloudflare Tunnel.
 
----
 
 <p align="center">
   <a href="https://github.com/kinabraytan" title="kinabraytan">
@@ -202,7 +167,6 @@ Created for n8n workflow automation with secure, persistent, and remote access u
   </a>
 </p>
 
----
 
 <p align="center">
   <b>Helpful Links</b><br>
